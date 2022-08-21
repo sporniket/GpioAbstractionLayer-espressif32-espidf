@@ -1,0 +1,29 @@
+{
+    "name": "GpioAbstractionLayer-espressif32-espidf",
+    "version": "0.0.1",
+    "description": "C++ library for PlatformIO, implementation of the GpioAbstractionLayer for the espressif32 platform, using the espidf framework",
+    "keywords": "gpio, abstraction, esp32, espressif32, espidf",
+    "dependencies": {
+        "sporniket/GpioAbstractionLayer":"~0.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sporniket/GpioAbstractionLayer-espressif32-espidf"
+    },
+    "authors": [
+        {
+            "name": "David SPORN",
+            "url": "https://github.com/sporniket",
+            "maintainer": true
+        }
+    ],
+    "export": {
+        "exclude": [
+            ".gitignore",
+            "*.gz"
+        ]
+    },
+    "license": "GPL-3.0-or-later",
+    "frameworks": ["espidf"],
+    "platforms": ["espressif32"]
+}
