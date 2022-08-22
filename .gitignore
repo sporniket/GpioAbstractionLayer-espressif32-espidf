@@ -1,6 +1,10 @@
 # tarballs
 *.gz
 
+# vscode/pio stuff
+.vscode
+.pio
+
 # Prerequisites
 *.d
 

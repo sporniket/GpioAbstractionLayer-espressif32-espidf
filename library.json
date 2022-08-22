@@ -19,6 +19,11 @@
     ],
     "export": {
         "exclude": [
+            "lib",
+            "test",
+            "**/CMake*",
+            "sdk*",
+            "*.ini",
             ".gitignore",
             "*.gz"
         ]
