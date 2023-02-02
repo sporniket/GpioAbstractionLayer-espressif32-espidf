@@ -39,7 +39,7 @@ class DigitalInputOutputEsp32 : public DigitalInputOutput{
          * @brief Prepare the specified pin to be read from or to be written to.
          */
         inline virtual void setup(uint8_t pin, PinDirection direction ) {
-            gpio_pad_select_gpio(pin);
+            esp_rom_gpio_pad_select_gpio(pin);
             gpio_set_direction(gpio_num_t(pin), READ == direction ? GPIO_MODE_INPUT : GPIO_MODE_OUTPUT);
         }
         /**
