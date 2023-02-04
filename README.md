@@ -7,6 +7,10 @@ GPL v3
 
 ## What's new
 
+### v0.0.2
+
+* Adapt to recent idf version
+
 ### v0.0.1
 
 Initial publishing, extracted from working code.

@@ -1,6 +1,6 @@
 {
     "name": "GpioAbstractionLayer-espressif32-espidf",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "C++ library for PlatformIO, implementation of the GpioAbstractionLayer for the espressif32 platform, using the espidf framework",
     "keywords": "gpio, abstraction, esp32, espressif32, espidf",
     "dependencies": {
